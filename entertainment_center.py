@@ -41,7 +41,7 @@ ec_movie_list = []
 def find_movies():
     # Load Movies into array from file if exists / otherwise create if not exist
     if not os.path.isfile('./ec_movie_list.csv'):
-        create_movie_csv()    
+        ec_create_csv.create_movie_csv()    
     ec_movie_list = ec_read_csv.read_movie_csv()
     
     # Locate all movies in the array db (simulates user searching on web page)

@@ -26,7 +26,7 @@ def create_movie_csv():
         moviewriter.writerow(['Toy Story',
                               'A story of a boy and his toys that come to life.',
                               'http://upload.wikimedia.org/wikipedia/en/1/13/Toy_Story.jpg', 
-                              'https://www.youtube.com/watch?v=VwyZH85NQC4'])
+                              'https://www.youtube.com/watch?v=NTdKQzVFeis'])
         moviewriter.writerow(['Avatar',
                               'A marine on an alien planet',
                               'https://upload.wikimedia.org/wikipedia/en/b/b0/Avatar-Teaser-Poster.jpg', 
@@ -46,7 +46,7 @@ def create_movie_csv():
         moviewriter.writerow(['Jesus of Nazareth',
                               'The greatest story ever told.',
                               'https://upload.wikimedia.org/wikipedia/en/c/c0/Jesus_of_nazareth.jpg', 
-                              'https://pureflix.com/videos/253280294866/play'])
+                              'https://www.youtube.com/watch?v=tm3RfymlhgU'])
 
 # create_movie_csv()
 
