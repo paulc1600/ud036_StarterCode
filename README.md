@@ -1,6 +1,7 @@
 # ud036_StarterCode
 Source code for a Movie Trailer website.
 
+<pre>
  ---------------------------------------------------------------------
   Udacity Course: Full Stack Web Developer
   Proj #1: Movie Website
@@ -30,3 +31,4 @@ Source code for a Movie Trailer website.
   PPC | 01/04/2018 | Original code.
   PPC | 01/05/2018 | Move to GitHub and add header. 
  ---------------------------------------------------------------------
+</pre>
