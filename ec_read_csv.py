@@ -6,13 +6,14 @@
 #            enhancement is to make this real db on server side,
 #            and allow website user to pick some of the movies.
 #            -- what happens if text file more than 6 movies?
-#            -- if file not exist, catch in calling code 
+#            -- if file not exist, catch in calling code
 #  File:    ec_read_csv
-# 
+#
 # ---------------------------------------------------------------------
 #  PPC | 01/06/2018 | Original code.
 # ---------------------------------------------------------------------
-# Std lib code for handling CSV files. See https://docs.python.org/2/library/csv.html 
+# Std lib code for handling CSV files.
+#  See https://docs.python.org/2/library/csv.html
 import csv
 
 # Movie Title,
@@ -23,6 +24,7 @@ import csv
 # a_row = 6
 # my_movie_list = [[" " for x in range(a_col)] for y in range(a_row)]
 my_movie_list = []
+
 
 def read_movie_csv():
     with open('ec_movie_list.csv', 'rb') as csvfile:
@@ -39,7 +41,7 @@ def read_movie_csv():
 
         # Now we know header column numbers, so go read actual movie records
         for movie_row in moviereader:
-            # Assumes each row is identically formatted (data in same column) 
+            # Assumes each row is identically formatted (data in same column)
             one_Title = movie_row[mov_Title_Index]
             one_SL = movie_row[mov_SL_Index]
             one_Graphic = movie_row[mov_Graphic_Index]
@@ -48,10 +50,4 @@ def read_movie_csv():
             # Fill list with this one row of data
             my_movie_list.append([one_Title, one_SL, one_Graphic, one_Trailer])
 
-        # print(my_movie_list[0][0]) 
         return my_movie_list
-
-# read_movie_csv()
-# print(find_movie_csv("Avengers"))
-# print(my_movie_list[4])
-
