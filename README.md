@@ -4,8 +4,8 @@ Source code for a Movie Trailer website.
 
 <pre>
  ---------------------------------------------------------------------
-  Udacity Course: Full Stack Web Developer
-  Proj #1: Movie Website
+  Front End Web Development
+  Movie Website -- Fresh Tomatoes
   Purpose: write server-side code to store a list of favorite movies,
             including box art imagery and a movie trailer URL. Code
             is used to generate a static web page allowing visitors to
@@ -22,14 +22,12 @@ Source code for a Movie Trailer website.
   DISCLAIMER: Most of fresh_tomatoes and media file is borrowed from 
               code provided in "Programming Foundations with Python". 
 
-              Please do not alter this code unless you are an Udacity 
-              instructor. 
-
+              Please do not alter this code without contacting me first
               Many thanks. -- Paul
  ---------------------------------------------------------------------
   PPC | 01/04/2018 | Original code.
   PPC | 01/05/2018 | Move to GitHub and add header.
-  PPC | 01/10/2018 | Cleaned PEP issues all files. Submit to Udacity. 
+  PPC | 01/10/2018 | Cleaned PEP issues all files. 
  ---------------------------------------------------------------------
 
   TO RUN CODE: Download all files into the same, local, Python 2.7
